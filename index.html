@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laundry Mart</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Laundry Mart</h1>
+    </header>
+    <Section id ="About">
+        <h2>About Us</h2>
+        <p>"Laundry Mart is your one-stop shop for all your laundry needs in Budhaul. We are dedicated to providing top-notch laundry and dry cleaning services with a focus on quality, convenience, and customer satisfaction. Our core values include meticulous care, eco-friendly practices, and a commitment to exceeding your expectations. We offer a range of services, from wash and fold to dry cleaning and specialty cleaning, all designed to make your life easier. Whether you're a busy professional, a student, or a family, Laundry Mart is here to simplify your laundry routine. Explore our website to learn more and experience the Laundry Mart difference</p>
+
+    </Section>
+    <section id = "Image" >
+        <img src="Laundry.jpg" alt="Laundry ">
+    </section>
+    <section id="Services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Washing and Drying</li>
+            <li>Ironing and Folding</li>
+            <li>Dry Cleaning </li>
+            <li>Stain Removal</li>
+            <li>Express Services</li>
+            <li>Sepcial Garment Care </li>
+            <li>And more..</li>
+        </ul>
+    </section>
+    <section id="Price List">
+        <h2>Price List</h2>
+        <table>
+            <tr>
+                <th>Service</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Washing and Drying</td>
+                <td>Rs 10 per item</td>
+            </tr>
+            <tr>
+                <td>Ironing and Folding</td>
+                <td>Rs 5 per item</td>
+            </tr>
+            <tr>
+                <td>Dry Cleaning</td>
+                <td>RS 150 per garment</td>
+            </tr>
+            <tr>
+                <td>Stain Removal</td>
+                <td>RS 80 per item</td>
+            </tr>
+        </table>
+    </section>
+    <section id = "Book Now">
+        <h2>Book Now</h2>
+        <form action="">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required><br><br>
+
+            <label for="service">Select Service:</label>
+            <select id="service" name="service">
+                <option value="washing">Washing and Drying</option>
+                <option value="ironing">Ironing and Folding</option>
+                <option value="drycleaning">Dry Cleaning</option>
+                <option value="stainremoval">Stain Removal</option>
+            </select><br><br>
+
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1" required><br><br>
+
+            <input type="submit" value="Book Now">
+        </form>
+
+    </section>
+    <footer>
+        <p>Contact us at : info@laundrymart.com</p>
+    </footer>
+</body>
+</html>
